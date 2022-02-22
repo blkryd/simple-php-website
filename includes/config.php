@@ -8,7 +8,7 @@
 function config($key = '')
 {
     $config = [
-        'name' => 'Simple PHP Website',
+        'name' => 'Dotlines Bangladesh',
         'site_url' => '',
         'pretty_uri' => false,
         'nav_menu' => [
@@ -19,7 +19,7 @@ function config($key = '')
         ],
         'template_path' => 'template',
         'content_path' => 'content',
-        'version' => 'v3.1',
+        'version' => 'v3.2',
     ];
 
     return isset($config[$key]) ? $config[$key] : null;
